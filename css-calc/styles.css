@@ -1,0 +1,21 @@
+.o-container{
+    display: flex;
+    height: calc(100vh - 16px);
+}
+
+.b-main{
+    width: calc(100% - 50px - 10px);
+    margin-left: 10px;
+
+    background-color: #a2cbfa;
+    border: 1px solid #7da5d1;
+    border-radius: 3px;
+}
+
+.b-menu{
+    width: 50px;
+
+    background-color: #a2cbfa;
+    border: 1px solid #7da5d1;
+    border-radius: 3px;
+}
