@@ -1,0 +1,48 @@
+.b-gallery {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.b-gallery__item {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b-gallery__img {
+    width: 100%;
+}
+
+
+.b-gallery__row, .b-gallery__col {
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
