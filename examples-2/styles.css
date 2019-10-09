@@ -12,11 +12,6 @@
 }
 
 .b-gallery__img:hover {
-    opacity: .5;
-}
-
-
-.b-gallery__img:hover {
     opacity: .8;
     animation: example 1s infinite;
 }

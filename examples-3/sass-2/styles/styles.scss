@@ -1,0 +1,18 @@
+@import "settings/settings.colors";
+@import "settings/settings.core";
+@import "settings/settings.paths";
+@import "settings/settings.prefix";
+@import "settings/settings.font-sizes";
+
+@import "tools/tools.font-face";
+
+@import "elements/elements.fonts";
+
+
+@import "blocks/words/blocks.title";
+@import "blocks/words/blocks.subtitle";
+@import "blocks/blocks.word";
+@import "blocks/blocks.btn";
+@import "blocks/blocks.section";
+@import "blocks/blocks.gallery";
+@import "blocks/blocks.card";
