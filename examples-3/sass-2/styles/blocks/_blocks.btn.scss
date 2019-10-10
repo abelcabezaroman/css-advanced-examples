@@ -6,18 +6,23 @@
   border: 4px solid transparent;
   transition: border .25s ease-in-out;
   border-radius: 3px;
+
   &:hover {
     border: 4px solid $color-secondary;
   }
+
   &--flush {
     padding: 0;
   }
+
   &--tiny {
     padding: 4px;
   }
+
   &--small {
     padding: 8px;
   }
+
   &--large {
     padding: 12px;
   }
@@ -29,17 +34,19 @@
   &--success {
     background-color: $color-success;
   }
+
   &--error {
     background-color: $color-error;
 
   }
+
   &--warning {
     background-color: $color-warning;
 
   }
+
   &--info {
     background-color: $color-info;
-
   }
 }
 

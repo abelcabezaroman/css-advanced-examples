@@ -1,11 +1,71 @@
 .b-card {
   width: 100%;
+  overflow: hidden;
+
+  &:hover {
+
+
+    .b-card__title {
+      animation: title-animation 1s cubic-bezier(0.6, -0.1, 0.74, 0.05);;
+      animation-fill-mode: forwards;
+    }
+
+    .b-card__text {
+      animation: text-animation 1s cubic-bezier(0.6, -0.1, 0.74, 0.05);;
+      animation-fill-mode: forwards;
+    }
+
+
+    .b-card__img {
+      opacity: .5;
+    }
+
+    .b-card__footer {
+      height: 100%;
+    }
+
+
+  }
+
+  &__item {
+    position: relative;
+  }
 
   &__img {
     width: 100%;
+    transition: opacity 1s ease-in-out;
   }
 
   &__footer {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 0;
+    overflow: hidden;
+    transition: height 1.25s ease-in-out;
   }
 }
+
+
+@keyframes text-animation {
+  25% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(1000%);
+  }
+}
+
+@keyframes title-animation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-1000%);
+  }
+}
+
